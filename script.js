@@ -10,7 +10,7 @@ class Entidade {
         this.cor = cor
     }
     desenhar (){
-        ctx.fillStyle(this.cor)
+        ctx.fillStyle = this.cor
         ctx.fillRect(this.x, this.y, this.largura, this.altura)
     }
 }
